@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+
+}
+
+.row{
+    position: relative;
+    width: 100%;
+    margin: 30px;
+    max-width: 900px;
+    min-height: 1000px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.row .left{
+    position: relative;
+   
+   
+}
+
+.row .right{
+    position:relative;
+   
+}
+
+.contact{
+    text-align : center;
+    font-size: 30px;
+}
+
+hr.n{
+    width: 150px;
+}
+
+.cont{
+    margin-left:30px;
+    font-size: 17px;
+}
+
+.school{
+    margin-left:30px;
+    font-size: 17px;
+} 
+
+.name{
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+
+.role{
+    margin-left: 30px;
+    color:#bb54e7;
+    font-size: 27px;
+}
+.obj{
+    color:#bb54e7;
+    font-size: 27px;
+}
+
+.rols{
+   
+    font-size: 25px;
+}
+
+
+
+.ab{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+hr.m{
+    width: 540px;
+}
+
+.percent{
+    position: relative;
+    border:1px solid #bb54e7;
+    background: white;
+    width: 50%;
+    height: 8px;
+    display: block;
+}
+
+ .percent div{
+    position: absolute;
+    height: 100%;
+    background: #bb54e7;
+}

@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: solid 0.5px;
+    width:60%;
+    margin: auto;
+    padding:10px;
+}
+
+.menu{
+    position: relative;
+    margin: 20px;
+}
+
+.ti{
+    position: relative;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+
+.f1{
+    background-color: red;
+    margin: 15px;
+    padding: 10px;
+    font-size:large;
+}
+
+.table1 th{
+    text-align: left;
+    margin: 10px;
+    font-size:large;
+}
+.form{
+    font-size:large;
+    margin-left: 12px;
+    margin-top: 12px;
+    
+}
+.lines{
+   
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #E8E8E8;
+  font-size:large;
+  box-sizing: border-box;
+}
+.form2{
+    margin-top: 10px;
+    font-size:large;
+    margin-left: 10px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+
+.desc{ 
+border-color: black;
+border-style: solid;
+box-sizing: content-box;
+width:70%;
+
+}
+
+input[type="radio"]{ 
+margin: 5px;
+height: 18px;
+width: 20px;
+border: 2px solid red
+}
+
+input[type="checkbox"]{
+margin: 5px;
+height: 18px;
+width: 20px;
+}
+
+input[type="text"]{
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    height:25px;
+    width:130px;
+}
+
+
+input[type=radio].required::after {
+    border-radius:100%;
+}
+
+input[type=text]:focus {
+    background-color: #E6E6FA;
+  }
+
+.red{
+    color:red
+}
+
+button{
+    background-color: red;
+    margin: 15px;
+    padding: 10px;
+    font-size:large;
+}
+
+textarea{
+   background-color: white;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+}
+
+textarea:focus {
+    background-color: #E6E6FA;
+  }
